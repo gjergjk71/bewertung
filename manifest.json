@@ -1,0 +1,16 @@
+{
+  "name": "Bewertung",
+  "description": "Fügen Sie den Bewertungen die Anzahl der Sterne hinzu",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Fügen Sie den Bewertungen die Anzahl der Sterne hinzu"
+  },
+  "manifest_version": 2
+}
